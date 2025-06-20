@@ -1,0 +1,21 @@
+# .easignore
+
+# Ignore standard git and node files
+.git/
+.gitignore
+node_modules/
+
+# Ignore local editor and OS files
+.idea/
+.vscode/
+.DS_Store
+
+# Ignore temporary and cache directories
+.expo/
+.cache/
+dist/
+
+# Ignore sensitive system and user directories
+/AppData/
+/Users/
+/Windows/ 
