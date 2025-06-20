@@ -11,22 +11,6 @@ module.exports = function (api) {
           path: '.env',
         },
       ],
-      [
-        'module-resolver',
-        {
-          alias: {
-            'tty': 'tty-browserify',
-            'stream': 'stream-browserify',
-            'util': 'util/',
-            'assert': 'assert/',
-            'http': 'stream-http',
-            'https': 'https-browserify',
-            'os': 'os-browserify/browser',
-            'url': 'url/',
-            'crypto': 'crypto-browserify',
-          },
-        },
-      ],
     ],
   };
 }; 
